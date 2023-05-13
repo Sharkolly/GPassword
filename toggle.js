@@ -40,8 +40,9 @@ btn.addEventListener("click", function () {
             });
         }
         else {
+             corr.style.display = 'block';
             setTimeout(() => {
-                corr.style.display = 'block';
+                corr.style.display = 'none';
             }, 3000)
         };
     }
