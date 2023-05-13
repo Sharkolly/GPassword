@@ -1,0 +1,155 @@
+/* body{
+      display: grid;
+      place-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+
+}
+.body{
+    background: white;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background: blue;
+}
+.add, .run{
+    width: 150%;
+    padding: .9em 1em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 9px;
+    border: none;
+    background: black;
+    color: white;
+    box-shadow: 0 5px 6px 3px rgb(165, 165, 165);
+    cursor: pointer;
+}
+
+.remove{
+    width: 150%;
+    padding: .9em 1em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 9px;
+    border: none;
+    background: white;
+    color: black;
+    box-shadow: 0 5px 3px 1px rgb(165, 165, 165);
+    cursor: pointer;
+}
+.big{
+    background: black;
+}
+.red{
+    background: red;
+}
+.green{
+    background: green;
+} */
+body {
+    margin: 2em 0;
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+div.container {
+    width: 90%;
+    margin-inline: auto;
+}
+
+div.wrap {
+    /* border: 2px solid black; */
+    padding: 1em 2em;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+h1.password {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+span {
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 100%;
+    font-size: 1.11em;
+    font-weight: bold;
+}
+
+input {
+    border: none;
+    outline: none;
+    margin-left: 1em;
+    width: 51%;
+    font-size: 1.08rem;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+div.btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+button {
+    color: white;
+    background: black;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: .3em 1.2em;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+p.save {
+    display: none;
+    color: rgb(0, 178, 0);
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .4s ease;
+}
+
+p.wrong {
+    color: rgb(250, 0, 0);
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    transition: .4s ease;
+    display: none;
+}
+
+div.enter-pass{
+    text-align: center;
+    display: none;
+}
+.entering{
+    width: 50%;
+}
+div.img{
+    display: none;
+    width: 92%;
+    margin-inline: auto;
+}
+
+div.imgg{
+    display: flex;
+    gap: .4em;
+    flex-wrap: wrap;
+}
+img{
+    flex: 1 1 180px;
+    width: 180px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+p.show{
+    font-size: 23px;
+}
